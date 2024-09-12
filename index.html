@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasantias</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"></link>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+        </style>
+</head>
+<body>
+<div class="wrapper">
+<!-- Inicio de la parte superior-->
+    <div class="parte-superior">
+        <header>
+            <nav class="navbar maven-pro-regular">
+                <div class="nav-left">
+                    <a href="index.html" class="nav-item">Inicio</a>
+                </div>
+                <ul class="nav-right">
+                    <li><a href="html/contacto.html" class="nav-item">Contacto</a></li>
+                    <li><a href="html/quieneSomos.html" class="nav-item">Quiénes Somos</a></li>
+                </ul>
+            </nav>
+                <h1 class="maven-pro-bold">Pagina de Prueba</h1>
+                <p class="primer-parrafo maven-pro-regular"> Vamos a escribir una pequiña intro de lo que se hace</p>
+        </header>
+</div>
+<!-- Fin de la parte superior-->
+
+    <main class="main">
+        <div class = "trabajo-imagen-video">
+        <div class="section-video" data-aos="zoom-in" data-aos-duration="1500">
+            <video autoplay muted loop class="video-fondo">
+                <source src="video\trabajo en equipo.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+            <div class="contenido">
+                <!-- Aquí puedes poner el contenido de tu sección -->
+                <h1 class = "titulo-video maven-pro-bold">El Poder del Trabajo en Equipo</h1>
+                <p class = "parrafo-video maven-pro-regular">El éxito es un esfuerzo colectivo. Un equipo unido combina fuerzas, supera desafíos y crea soluciones innovadoras. Juntos, logramos más.</p>
+            </div>
+        </div>
+        <img data-aos="zoom-in-down" data-aos-duration="2500" src="img/trabajo.jpg" alt="trabajo">
+    </div>        
+
+<!-- agregamos la informacion de la segunda parte o imagenes referentes -->
+        <section>
+            <div class = "contenedor-info maven-pro-light">
+                <div data-aos="fade-right" data-aos-duration="3000" class="informacion"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis doloremque dolores ipsam laboriosam provident optio dolore tempore iste, est temporibus similique pariatur libero sed beatae perferendis molestiae excepturi. Quasi..</p></div>
+                <div data-aos="fade-up" data-aos-duration="1500" class="informacion"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, unde! Magnam quod numquam amet incidunt perspiciatis. Accusantium velit, dolor saepe, quia nihil eum omnis minima eaque libero obcaecati quam sapiente!.</p></div>
+                <div data-aos="fade-left" data-aos-duration="3000" class="informacion"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate alias facere accusantium accusamus, necessitatibus iure quaerat. Quisquam molestias, rem, corporis et laborum incidunt ut doloribus hic dicta eligendi voluptatum eos.</p></div>
+            </div>
+        </section>
+<!-- finalizamos la segunda parte -->
+
+<!-- seccion de publicidad y una galeria -->
+<div class="imagenes-publicidad">
+        <div class="publicidad">
+            <video autoplay muted loop>
+                <source src="video/111publicidad.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="galeria">
+            <img src="img/trigo.jpg" alt="Imagen 1">
+            <img src="img/soja.jpg" alt="Imagen 2">
+            <img src="img/sorgo.jpg" alt="Imagen 3">
+            <img src="img/maiz.jpg" alt="Imagen 4">
+            <img src="img/algodon.jpg" alt="Imagen 5">
+            <!-- Añade más imágenes según sea necesario -->
+        </div>
+</div>
+<!-- fin de la publicidad y galeria -->
+        <section class="contenedor-formulario">
+            <form id="formulario-email">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        
+        
+        
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/publicidadJs.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</div>
+</body>
+
+<footer class="footer">
+    <div class="texto-footer">
+    <p>Derechos reservados de Ramiro Stefanutti</p>
+    <p>Esta pagina es solo una demostracion</p>
+    <p>puede que solo dure un periodo muy corto de tiempo</p>
+    </div>
+    <ul class="redes-sociales">
+        <li><a href="https://www.instagram.com" target="_blank"><img class="boton-footer" src="./img/iconos redes sociales/instagram_1.png" alt="Instagram"></a></li>
+        <li><a href="https://www.tiktok.com" target="_blank"><img class="boton-footer" src="./img/iconos redes sociales/tik-tok_2.png" alt="tik-tok"></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><img class="boton-footer" src="./img/iconos redes sociales/youtube_3.png" alt="Youtube"></a></li>
+    </ul>
+</footer>
+    
+</html>
