@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    emailjs.init('stefanuttiramiro@gmail.com'); // Reemplaza 'YOUR_USER_ID' con tu userID de EmailJS
+    emailjs.init('YOUR_USER_ID'); // Reemplaza 'YOUR_USER_ID' con tu userID de EmailJS
 });
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
