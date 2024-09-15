@@ -82,7 +82,7 @@ body {
 }
 
 .parte-superior{
-background: url('/img/fondo\ inicio.jpg');
+background: url('/img/fondo\ inicio111.jpg');
 background-position: center;
 background-size: cover;
 width: auto;
@@ -165,6 +165,7 @@ h1 {
     width: 500px;
     height: 360px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.226);
+    opacity: 0.75;
 }
 
 /*fin video*/
@@ -209,7 +210,7 @@ h1 {
     text-align: center;
 }
 
-.imagenes-publicidad {
+.imagenes-galeria {
     margin: 60px 0;
     display: flex;
     justify-content: center; /* Centra los elementos horizontalmente */
@@ -284,17 +285,43 @@ h1 {
 /*fin del estilo del boton de Whatsapp de la pagina de contactos*/
 
 
-
-.contenedor-formulario{
-    border-radius: 15px;
-    text-align: left;
-    background-color: #11b2fd4d;
-    margin: 100px 650px 160px 20px;
-    padding: 10px 5px 10px 5px;
-    width: auto;
-    height: 200px;
+.contenedor-formulario {
+    background-color: transparent; /* Fondo transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Ancho máximo */
+    width: 100%; /* Asegura que el contenedor no exceda el ancho máximo */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos dentro del formulario */
+}
+label, input, textarea {
+    margin-bottom: 10px;
+    width: 100%; /* Asegura que los elementos ocupen todo el ancho disponible */
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.boton-email {
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
 
 /*inicio del footer*/
 .footer {

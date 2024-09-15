@@ -35,7 +35,7 @@
         <div class = "trabajo-imagen-video">
         <div class="section-video">
             <video autoplay muted loop class="video-fondo">
-                <source src="video\trabajo en equipo.mp4" type="video/mp4">
+                <source src="video/trabajo en equipo.mp4" type="video/mp4">
                 Tu navegador no soporta el elemento de video.
             </video>
             <div class="contenido">
@@ -46,7 +46,7 @@
         </div>
         <img src="img/trabajo.jpg" alt="trabajo">
     </div>        
-
+    <p>vamos a escribir uan introduccion del trabajo en equipo</p>
 <!-- agregamos la informacion de la segunda parte o imagenes referentes -->
         <section>
             <div class = "contenedor-info maven-pro-light">
@@ -56,14 +56,9 @@
             </div>
         </section>
 <!-- finalizamos la segunda parte -->
-
+<p>Tabajando Duro? o Durando en el Trabajo?</p>
 <!-- seccion de publicidad y una galeria -->
-<div class="imagenes-publicidad">
-        <div class="publicidad">
-            <video autoplay muted loop>
-                <source src="video/111publicidad.mp4" type="video/mp4">
-            </video>
-        </div>
+<div class="imagenes-galeria">
         <div class="galeria">
             <img src="img/trigo.jpg" alt="Imagen 1">
             <img src="img/soja.jpg" alt="Imagen 2">
@@ -74,31 +69,25 @@
         </div>
 </div>
 <!-- fin de la publicidad y galeria -->
-        <section class="contenedor-formulario">
-            <form id="formulario-email">
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div>
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" required></textarea>
-                </div>
-                <div>
-                    <button type="submit">Enviar</button>
-                </div>
+    <div class="contenedor-formulario">
+        <div class="formulario maven-pro-light">
+            <form action="" method="POST">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" required>
+                <label for="subject">Asunto</label>
+                <input type="text" name="subject" required>
+                <label for="comments">Comentarios</label>
+                <textarea name="comments" cols="15" rows="5" ></textarea>
+                <button class="boton-email" type="submit">Enviar</button>
             </form>
-        </section>
-        
-        
+        </div>
+    </div>
         
     </main>
+    <script src="js/email.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/publicidadJs.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
@@ -106,7 +95,7 @@
 </div>
 </body>
 
-<footer class="footer">
+<footer class="footer maven-pro-light">
     <div class="texto-footer">
     <p>Derechos reservados de Ramiro Stefanutti</p>
     <p>Esta pagina es solo una demostracion</p>
