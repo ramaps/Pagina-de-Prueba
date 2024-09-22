@@ -82,7 +82,7 @@ body {
 }
 
 .parte-superior{
-background: url('/img/img-fondo.jpeg');
+background: url('https://img.freepik.com/fotos-premium/fondo-pared-ladrillo-simbolo-luz-neon-fondo-imagen-telefono-escritorio-papel-pared-fondos-hd_913266-18580.jpg?w=826');
 background-position: center;
 background-size: cover;
 width: auto;
@@ -255,6 +255,71 @@ h1 {
 }
 
 /* fin galeria img */
+
+/*inicio cars de contacto*/
+
+.sectionCards {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.contenedorCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    width: 230px;
+    height: 310px;
+    background-color: #3babdf;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 8px 15px #0000005e;
+}
+
+.imgCard {
+    margin: 10px;
+    width: 210px;
+    height: 260px;
+    background-color: whitesmoke;
+    transition: transform 1s ease-in-out;
+    border-radius: 5px;
+}
+
+.imgCard img {
+    width: 210px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.botonDescargaCv {
+    margin-left: 45px;
+    margin-bottom: 10px;
+    background-color: #eb42d4;
+    border-radius: 3px;
+    width: 60%; /* Añade un margen superior para separar el botón de la imagen */
+}
+
+.botonDescargaC:hover{
+
+}
+
+
+.card:hover{
+    transform:scale(1.05) ;
+}
+
+
+
+/*fin cars de contacto*/
 
 /*Estilos para el botón flotante de WhatsApp de la pagina de contactos*/
 .whatsapp-float {
